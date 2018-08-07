@@ -89,6 +89,7 @@ class App extends Component {
           location.latitude,
           location.longitude
         ),
+	animation: window.google.maps.Animation.DROP,
         
         map: map,
 		title: completeName
@@ -127,6 +128,7 @@ class App extends Component {
     this.state.info.open(this.state.map, marker);
     this.state.info.setContent("Loading Data...");
     this.getMarkerInfo(marker);
+    marker.setAnimation(window.google.maps.Animation.DROP);
   }
 
   
