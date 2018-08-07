@@ -16,5 +16,7 @@ Licensing: Permission is hereby granted to any person.
 
 NB: Service Worker only works in Production Mode.
 
+To use it in Production Mode: npm run build; deploy to gh-pages branch: npm run deploy
+
 
 Enjoy my area!
