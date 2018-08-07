@@ -50,6 +50,7 @@ class List extends Component {
         <Loc
           infoOpen={this.props.infoOpen.bind(this)}
           data={listItem}
+          key={index.toString()}                                   
         />
       );
     }, this);
