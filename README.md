@@ -8,4 +8,13 @@ To run the app:
 3) npm install
 4) npm start
 
+What my app does: shows the best places in my area, using google maps and Foursquare API.
+What my app uses: React framework, Google Map API and Foursquare API
+Dependencies: React 16.2.0, React-dom 16.2.0
+Author: Davide Sacquegna
+Licensing: Permission is hereby granted to any person.
+
+NB: Service Worker only works in Production Mode.
+
+
 Enjoy my area!
