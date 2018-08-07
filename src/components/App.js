@@ -108,6 +108,10 @@ class App extends Component {
       places: places
     });
   }
+	
+  function gm_authFailure() { 
+        alert("Wrong Google Maps API Key"); 
+  };
   
   componentDidMount() {
     // Connect the initMap() function within this class to the global window context,
