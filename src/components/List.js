@@ -58,7 +58,6 @@ class List extends Component {
       <div className="search-area">
         <input
           role="search"
-          aria-labelledby="filter"
           id="search-field"
           className="search-input"
           type="text"
